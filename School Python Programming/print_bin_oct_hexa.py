@@ -1,0 +1,5 @@
+num=int(input("Enter a number here: "))
+print("The conversion of ",num,"is: ")
+print("The conversion in binary is :",bin(num))
+print("The conversion in binary is :",oct(num))
+print("The conversion in binary is :",hex(num))
