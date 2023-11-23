@@ -1,16 +1,14 @@
-# user input
+num=int(input("Enter nth term: "))
 a=0
 b=1
-c=int(input("Enter nth term: "))
-print(a,"\t")
-print(b,"\t")
-for i in range(1,(c-1)):
-    d=a+b
+print(a)
+print(b)
+for i in range(1,num-1):
+    c=a+b
+    print(c)
     a=b
-    b=d
-    print(d,"\t")
-
-
+    b=c
+    
 
 
 
